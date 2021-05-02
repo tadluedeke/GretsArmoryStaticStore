@@ -55,7 +55,25 @@ nav li {
     align-items: center;
 }
 /* Info Section */
-
-
+section#info {
+    background-color: lightslategray;
+    color: white;
+    float: right;
+    position: relative;
+    padding-left: 12px;
+}
+section#info ul {
+    margin-right: 12px;
+}
+section#info h4 {
+    font-style: bold;
+    padding: 0;
+    margin: 12px, 0 0 0;
+}
+section#info p {
+    padding: 0;
+    margin:0;
+}
 /* Wares */
+
 /* Footer */
