@@ -23,7 +23,7 @@ div.clear {
 /* Header */
 header {
     background-color: lightblue;
-    background-image: url(/StaticStore/img/scalemail.png);
+    background-image: url("img/scalemail.png");
     padding: 2em;
     text-align: right;
     height: 70px;
