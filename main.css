@@ -11,28 +11,37 @@ body {
     background-size: 100% 100%;
 }
 a, a:visited {
-    color: grey;
+    color: black;
 }
 a:hover {
     color: white;
 }
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
 /* Header */
 header {
     background-color: lightblue;
+    background-image: url(/StaticStore/img/scalemail.png);
     padding: 2em;
     text-align: right;
     height: 70px;
+    border: solid black 3px;
 }
 header h1 {
     font-size: 4em;
     margin: auto;
     padding: 0;
-    color: grey;
+    color: black;
+    background-color: slategray;
 }
 header h3 {
     font-size: 2em;
     margin: 0;
     padding: 0;
+    color: black;
+    background-color: slategray;
 }
 /* Nav Bar */
 nav ul {
@@ -63,6 +72,8 @@ section#info {
     float: right;
     position: relative;
     padding-left: 12px;
+    border: 3px solid black;
+    border-top: 0;
 }
 section#info ul {
     margin-right: 12px;
@@ -77,5 +88,42 @@ section#info p {
     margin:0;
 }
 /* Wares */
-
+section#wares h1 {
+    font-size: 2em;
+    background-color: lightgrey;
+    width: 30%;
+}
+section#wares ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+section#wares img {
+    height: 300px;
+    width: 550px;
+}
+section#wares .preview {
+    background-color: lightgrey;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 6px;
+    margin-top: 6px;
+}
 /* Footer */
+footer {
+    background-color: lightslategray;
+    height: 35px;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
