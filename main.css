@@ -45,14 +45,16 @@ nav li {
     margin:0;
 }
 .socialMedia {
-    height: 30px;
-    width: 30px;
     margin: auto;
     padding: 4px;
     position: relative;
     float: left;
     bottom: 32px;
     align-items: center;
+}
+nav img {
+    height: 30px;
+    width: 30px;
 }
 /* Info Section */
 section#info {
